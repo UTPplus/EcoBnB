@@ -40,22 +40,22 @@ community and work in partnership with them to create empowerment.
 
 	# Main Dependencies and libraries used in this project:
 
-# express: used to create handle routing and process requests from the client.
+#express: used to create handle routing and process requests from the client.
 
-# body-parser: used to parse incoming request from the client.
+#body-parser: used to parse incoming request from the client.
 
-# mysql: Node JS driver for MySQL.
+#mysql: Node JS driver for MySQL.
 
-# ejs: templating engine to render html pages for the app.
+#ejs: templating engine to render html pages for the app.
 
-# nodemon: Installed globally. It is used to watch for changes to files and 
-automatically restart the server.
+#nodemon: Installed globally. It is used to watch for changes to files and 
+#automatically restart the server.
 
-# bcrypt: Security Issues And Concerns
+#bcrypt: Security Issues And Concerns
 
-# cookie-session: Simple cookie-based session middleware.
+#cookie-session: Simple cookie-based session middleware.
 
-and others.
+#and others.
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
