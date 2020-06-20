@@ -1,0 +1,25 @@
+{
+  "name": "EcoBnB",
+  "version": "1.0.0",
+  "description": "App for ecotour",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.3",
+    "particles.js": "^2.0.0",
+    "path": "^0.12.7",
+    "tachyons": "^4.12.0"
+  }
+}

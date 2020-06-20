@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Tours</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body class="sans-serif" style="font-family: 'Baloo Bhaina 2', cursive; font-weight: 500;">
+ 
+
+    <div class="container p-5">
+       <div class="d-flex flex-row-reverse bd-highlight h3">
+     
+      <a href="/" class="btn-link p-3  align-self-end">Home</a>
+
+    </div>
+
+
+ <section class="">
+<h2 class="f1  tracked tc mv3 mid-gray">Tours</h2>
+<div class="bt w-100 br2 b--black-20 mv3 "> </div>
+
+<% if (tour.length >= 0) { %>
+<div class="w-80 center flex  flex-wrap   justify-around">
+
+<% tour.forEach((tour, index) => { %>
+  <div class="card mb-3 shadow-5 mt3">
+  <img class="card-img-top h4 cover"   src="https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="f3 blue "><%= tour.title %></h5>
+    <h5 class="f5 blue "> Location: <%= tour.location %></h5>
+    <h5 class="f5 blue ">Duration: <%= tour.duration %></h5>
+    <h5 class="f5 blue ">Cost: $ <%= tour.cost %></h5>
+    <p class="card-text"><%= tour.discription %></p>
+    
+    <a href="/booking" class="btn btn-outline-primary">Register </a>
+  </div>
+</div>
+
+  <% }) %>
+
+   </div>
+<% } %>
+</section>
+
+
+</body>
+</html>
