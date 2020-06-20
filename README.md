@@ -1,41 +1,24 @@
 # EcoBnB
-Web Application for Eco-tourism 
+# Web Application for Eco-tourism 
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-$$                                         $$
-$$	Application : EcoBnB               $$
-$$                                         $$
-$$	Created By Team-ZeroMax            $$
-$$                                         $$
-$$	Team number - 5                    $$
-$$                                         $$
-$$		Team leader:               $$
-$$	U1710085 - Tulaev Ulugbek          $$
-$$                                         $$
-$$		Team members:              $$
-$$	u1710001 - Nazarov Javokhirbek     $$  
-$$	u1710011 - Nurullaev Azam          $$    
-$$	u1710207 - Farkhadov Khojiakbar    $$
-$$                                         $$
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	Discription of the project: 
+	#Discription of the project: 
 
 This porject was created for "Database Application & Design(SOC3060-003)" 
 Spring semester-2020.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	Application purpose:
+	#Application purpose:
  
 The aim of app is to promote Eco-tourism which follows the principles
 in the below.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	#Principles of Ecotourism
+	# Principles of Ecotourism
 
 Ecotourism is about uniting conservation, communities, and sustainable travel. 
 This means that those who implement, participate in and market ecotourism activities 
